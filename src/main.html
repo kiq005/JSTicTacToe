@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div id="board" class="tictactoe1">
+		<img class="square" id="p0" src="img/Space.png"/>
+		<img class="square" id="p1" src="img/Space.png"/>
+		<img class="square" id="p2" src="img/Space.png"/>
+		<br/>
+		<img class="square" id="p3" src="img/Space.png"/>
+		<img class="square" id="p4" src="img/Space.png"/>
+		<img class="square" id="p5" src="img/Space.png"/>
+		<br/>
+		<img class="square" id="p6" src="img/Space.png"/>
+		<img class="square" id="p7" src="img/Space.png"/>
+		<img class="square" id="p8" src="img/Space.png"/>
+		<br/>
+	</div>
+	<br/>
+	<p id="opponentlist">
+	<form name="gameOptions">
+		<select name="list">
+			<option value="human">Human</option>
+			<option value="rsa">Random Selection AI</option>
+			<option value="twa">Try Win AI</option>
+			<option value="minimax">Minimax</option>
+		</select>
+	</form>
+	<button id="resetbt">Reset</button>
+	</p>
+	<p id="output"> Output here </p>
+	<script src="main.js"></script>
+</body>
+</html>
