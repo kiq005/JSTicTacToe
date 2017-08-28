@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+	<!-- Draws the game board -->
 	<div id="board" class="tictactoe1">
 		<img class="square" id="p0" src="img/Space.png"/>
 		<img class="square" id="p1" src="img/Space.png"/>
@@ -20,17 +21,29 @@
 		<br/>
 	</div>
 	<br/>
+	<!-- List Opponent Strategies -->
 	<p id="opponentlist">
 	<form name="gameOptions">
 		<select name="list">
 			<option value="human">Human</option>
-			<option value="rsa">Random Selection AI</option>
-			<option value="twa">Try Win AI</option>
-			<option value="minimax">Minimax</option>
+			<option value="rsa">(Easy) Random Selection AI</option>
+			<option value="twa">(Normal) Try Win AI</option>
+			<option value="minimax">(Hard) Minimax</option>
+			<option value="fixed">(Impossible) Fixed</option>
 		</select>
 	</form>
+	<!-- List Design -->
+	<form name="gameDesign">
+		<select name="list2">
+			<option value=0>Basic</option>
+			<option value=1>Random Objects</option>
+			<option value=2>Signs</option>
+		</select>
+	</form>
+	<!-- Button to clear the board and restart the game -->
 	<button id="resetbt">Reset</button>
 	</p>
+	<!-- Game temporary output, this will be replaced -->
 	<p id="output"> Output here </p>
 	<script src="main.js"></script>
 </body>

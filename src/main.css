@@ -3,11 +3,11 @@
 	background-repeat: no-repeat;
 }
 .tictactoe2 {
-	background: url("img/board2.png");
+	background: url("img_obj/board1.png");
 	background-repeat: no-repeat;
 }
 .tictactoe3 {
-	background: url("img/board3.png");
+	background: url("img_sing/board1.png");
 	background-repeat: no-repeat;
 }
 .board {
